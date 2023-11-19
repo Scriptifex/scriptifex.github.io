@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll"
-gem "webrick"
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'webrick'
