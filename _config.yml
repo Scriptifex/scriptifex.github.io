@@ -1,7 +1,7 @@
-baseurl: "/jekyll-atlantic-theme/"
+baseurl: "/marty-blog/"
 remote_theme: zerostaticthemes/jekyll-atlantic-theme
 permalink: pretty
-title: "Marty Blog"
+title: "Marty's Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
