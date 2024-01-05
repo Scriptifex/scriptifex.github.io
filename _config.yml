@@ -6,6 +6,10 @@ collections_dir: collections
 markdown: kramdown
 highlighter: rouge
 
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
 sass:
   indentWidth: 4
   style: compact
