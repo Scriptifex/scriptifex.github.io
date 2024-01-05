@@ -1,9 +1,5 @@
 baseurl: "/jekyll-atlantic-theme/"
 remote_theme: zerostaticthemes/jekyll-atlantic-theme
-plugins:
--- jekyll-remote-theme # add this line to the plugins list if you already have one
--- jekyll-postcss
-
 permalink: pretty
 title: "Marty Blog"
 collections_dir: collections
@@ -33,6 +29,7 @@ seo:
   meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
 
 plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-environment-variables
   - jekyll-postcss
   - jekyll-paginate
