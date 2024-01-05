@@ -1,6 +1,11 @@
 baseurl: "/jekyll-atlantic-theme/"
+remote_theme: "jekyll-atlantic-theme"
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
 permalink: pretty
-title: "Jekyll Atlantic"
+title: "Marty Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
