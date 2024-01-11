@@ -6,3 +6,5 @@ gem 'jekyll'
 gem 'jekyll-environment-variables'
 gem 'jekyll-paginate'
 gem 'jekyll-postcss'
+
+gem "webrick", "~> 1.8"
