@@ -72,7 +72,6 @@ DEPENDENCIES
   jekyll-environment-variables
   jekyll-paginate
   jekyll-postcss
-  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.19
