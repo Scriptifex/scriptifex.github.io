@@ -1,4 +1,4 @@
-baseurl: "/marty-blog/"
+baseurl: "/"
 #remote_theme: zerostaticthemes/jekyll-atlantic-theme
 permalink: pretty
 title: "Marty's Blog"
