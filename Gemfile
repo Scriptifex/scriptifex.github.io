@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-environment-variables'
 gem 'jekyll-paginate'
-gem 'jekyll-postcss'
+# gem 'jekyll-postcss'
 
 # gem "webrick", "~> 1.8"
+
+gem "jekyll-postcss-v2", "~> 1.0"
