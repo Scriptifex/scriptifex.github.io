@@ -36,7 +36,6 @@ GEM
     jekyll-environment-variables (1.0.1)
       jekyll (>= 3.0, < 5.x)
     jekyll-paginate (1.1.0)
-    jekyll-postcss (0.5.0)
     jekyll-postcss-v2 (1.0.2)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)

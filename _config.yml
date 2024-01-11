@@ -10,6 +10,10 @@ layouts_dir: _layouts
 data_dir: _data
 includes_dir: _includes
 
+postcss:
+  script: node_modules/.bin/postcss
+  config: postcss.config.js
+
 sass:
   indentWidth: 4
   style: compact

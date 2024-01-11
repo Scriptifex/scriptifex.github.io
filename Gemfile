@@ -9,4 +9,4 @@ gem 'jekyll-paginate'
 
 # gem "webrick", "~> 1.8"
 
-gem "jekyll-postcss-v2", "~> 1.0"
+gem 'jekyll-postcss-v2', '~> 1.0'
