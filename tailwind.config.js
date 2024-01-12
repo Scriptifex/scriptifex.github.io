@@ -9,5 +9,22 @@ module.exports = {
       xl: "1280px",
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#0099ff",
+          secondary: "#66ccff",
+          accent: "#99ffcc",
+          neutral: "#cccccc",
+          "base-100": "#ffffff",
+          info: "#00cc99",
+          success: "#33cccc",
+          warning: "#ffffff",
+          error: "#ffffff",
+        },
+      },
+    ],
+  },
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
