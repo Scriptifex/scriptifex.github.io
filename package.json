@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Jekyll Tailwind starter blog",
   "dependencies": {
+    "monokai": "^1.0.0",
     "postcss-import": "^14.1.0",
     "postcss-nested": "^5.0.6"
   },
