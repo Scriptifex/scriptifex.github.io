@@ -3,20 +3,20 @@
   "version": "1.0.0",
   "description": "A Jekyll Tailwind starter blog",
   "dependencies": {
+    "monokai": "^1.0.0",
     "postcss-import": "^14.1.0",
     "postcss-nested": "^5.0.6",
-    "postcss-nesting": "^12.0.2",
-    "monokai": "^1.0.0"
+    "postcss-nesting": "^12.0.2"
   },
   "author": "rob@zerostatic.io",
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@tailwindcss/typography": "github:tailwindcss/typography",
+    "autoprefixer": "^10.4.16",
     "cssnano": "^6.0.3",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.16"
+    "tailwindcss": "^3.4.1"
   }
 }

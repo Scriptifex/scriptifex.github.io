@@ -1,5 +1,5 @@
-@tailwindcss base;
-@tailwindcss components;
+@tailwind base;
+@tailwind components;
 @layer components {
   .heading {
     em,
@@ -20,6 +20,6 @@
     }
   }
 }
-@tailwindcss utilities;
+@tailwind utilities;
 @import "assets/css/custom.css";
 @import "assets/css/syntax/monokai";
