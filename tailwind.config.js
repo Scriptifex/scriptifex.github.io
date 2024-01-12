@@ -9,12 +9,5 @@ module.exports = {
       xl: "1280px",
     },
   },
-  variants: {
-    extend: {
-      grayscale: ["hover", "focus"],
-      margin: ["last"],
-    },
-    container: [],
-  },
   plugins: [require("@tailwindcss/typography")],
 };
