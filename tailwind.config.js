@@ -13,6 +13,8 @@ module.exports = {
     themes: [
       "winter",
       "forest",
+      "sunset",
+      "bumblebee",
       {
         mytheme: {
           primary: "#0099ff",
@@ -27,7 +29,7 @@ module.exports = {
         },
       },
     ],
-    darkTheme: "forest",
+    darkTheme: "sunset",
     base: true,
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
