@@ -57,9 +57,20 @@ jobs:
           ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
       # use actions-gh-pages to deploy
       # https://github.com/peaceiris/actions-gh-pages
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # GITHUB_TOKEN secret is set up automatically
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      #- name: Deploy
+      #uses: peaceiris/actions-gh-pages@v3
+      #with:
+      # GITHUB_TOKEN secret is set up automatically
+      #github_token: ${{ secrets.GITHUB_TOKEN }}
+      #publish_dir: ./_site
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
