@@ -2,12 +2,7 @@
 ---
 
 @tailwindcss base;
-@tailwindcss utilities;
 @tailwindcss components;
-
-@import "assets/css/custom.css";
-@import "assets/css/syntax/monokai";
-
 @layer components {
   .heading {
     em,
@@ -28,3 +23,6 @@
     }
   }
 }
+@tailwindcss utilities;
+@import "assets/css/custom.css";
+@import "assets/css/syntax/monokai";
