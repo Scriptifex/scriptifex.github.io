@@ -1,6 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwindcss base;
+@tailwindcss utilities;
+@tailwindcss components;
 
 @import "assets/css/custom.css";
 @import "assets/css/syntax/monokai";
