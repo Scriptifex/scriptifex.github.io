@@ -76,7 +76,7 @@ DEPENDENCIES
   jekyll
   jekyll-environment-variables
   jekyll-paginate
-  jekyll-postcss-v2 (~> 1.0)
+  jekyll-postcss-v2
 
 BUNDLED WITH
    2.4.19

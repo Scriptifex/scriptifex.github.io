@@ -8,5 +8,8 @@ gem 'jekyll-paginate'
 # gem 'jekyll-postcss'
 
 # gem "webrick", "~> 1.8"
+group :jekyll_plugins do
+  gem 'jekyll-postcss-v2'
+end
 
-gem 'jekyll-postcss-v2', '~> 1.0'
+# gem 'jekyll-postcss-v2', '~> 1.0'
