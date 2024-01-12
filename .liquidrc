@@ -1,44 +1,48 @@
 {
-  "ignore": [
-    {
-      "type": "",
-      "begin": "",
-      "end": ""
+  "engine": "shopify",
+  "files": {
+    "settings": "",
+    "locales": "",
+    "sections": [],
+    "snippets": []
+  },
+  "format": {
+    "ignore": [],
+    "wrap": 80,
+    "indentSize": 4,
+    "preserveLine": 2,
+    "endNewline": true,
+    "liquid": {
+      "indentAttribute": true,
+      "lineBreakSeparator": "before",
+      "normalizeSpacing": true,
+      "quoteConvert": "single",
+      "ignoreTagList": []
+    },
+    "markup": {
+      "quoteConvert": "double",
+      "selfCloseSpace": true,
+      "delimiterTerminus": "inline",
+      "stripAttributeLines": true,
+      "commentNewline": false,
+      "forceIndent": true,
+      "commentIndent": true,
+      "ignoreJS": true,
+      "ignoreCSS": false,
+      "ignoreJSON": false,
+      "forceAttribute": 3
+    },
+    "json": {
+      "bracePadding": false,
+      "braceAllman": true,
+      "arrayFormat": "indent",
+      "objectIndent": "indent",
+      "objectSort": false
+    },
+    "style": {
+      "noLeadZero": true,
+      "quoteConvert": "single",
+      "atRuleSpace": true
     }
-  ],
-  "html": {
-    "correct": false,
-    "force_attribute": false,
-    "braces": false,
-    "preserve": 2,
-    "unformatted": false
-  },
-  "js": {
-    "preserve": 1,
-    "method_chain": 0,
-    "quote_convert": "none",
-    "format_array": "indent",
-    "format_object": "indent",
-    "braces": false,
-    "no_semicolon": false,
-    "brace_block": true
-  },
-  "scss": {
-    "css_insert_lines": true,
-    "preserve": 2,
-    "braces": false,
-    "brace_block": true
-  },
-  "css": {
-    "css_insert_lines": true,
-    "preserve": 2,
-    "braces": false,
-    "brace_block": true
-  },
-  "json": {
-    "preserve": 0,
-    "braces": false,
-    "brace_block": true,
-    "no_semicolon": true
   }
 }
