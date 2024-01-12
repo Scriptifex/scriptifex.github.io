@@ -3,19 +3,17 @@
   "version": "1.0.0",
   "description": "A Jekyll Tailwind starter blog",
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1",
-    "postcss-cli": "^11.0.0",
-    "postcss-import": "^14.0.2",
+    "postcss-import": "^14.1.0",
     "postcss-nested": "^5.0.6"
   },
   "author": "rob@zerostatic.io",
   "license": "MIT",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/typography": "github:tailwindcss/typography",
     "autoprefixer": "^10.4.16",
-    "cssnano": "^6.0.1",
+    "cssnano": "^6.0.3",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.1"
   }
 }
