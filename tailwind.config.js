@@ -27,6 +27,8 @@ module.exports = {
         },
       },
     ],
+    darkTheme: "forest",
+    base: true,
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
