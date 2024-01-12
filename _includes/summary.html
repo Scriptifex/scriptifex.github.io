@@ -19,14 +19,14 @@
           {% endfor %}
         </div>
       {% endif %}
-      <div class="text-sm font-medium text-gray-700">{{ post.date | date_to_long_string }}</div>
+      <div class="text-sm font-medium text-neutral-content">{{ post.date | date_to_long_string }}</div>
     </div>
 
-    <a href="{{ post.url | relative_url }}" class="hover:text-green-400">
+    <a href="{{ post.url | relative_url }}" class="hover:text-accent">
       <h2 class="text-2xl font-semibold mb-1">{{ post.title }}</h2>
     </a>
 
-    <p class="text-base font-light text-gray-600 mb-4">{{ post.description }}</p>
+    <p class="text-base font-light text-base-content mb-4">{{ post.description }}</p>
 
     {% if post.categories %}
       <div class="mb-2">

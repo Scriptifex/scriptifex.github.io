@@ -11,8 +11,9 @@ module.exports = {
   },
   daisyui: {
     themes: [
+      "winter",
+      "forest",
       {
-        "winter","forest",
         mytheme: {
           primary: "#0099ff",
           secondary: "#66ccff",
