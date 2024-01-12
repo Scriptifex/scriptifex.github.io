@@ -1,6 +1,3 @@
----
----
-
 @tailwindcss base;
 @tailwindcss components;
 @layer components {
